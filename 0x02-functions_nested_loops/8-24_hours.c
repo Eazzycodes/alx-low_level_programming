@@ -4,7 +4,7 @@
  * main - check code
  * Return: Always 0.
  */
-int main(void)
+void jack_bauer(void);
 {
 	jack_bauer();
 	return (0);

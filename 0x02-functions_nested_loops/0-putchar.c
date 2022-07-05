@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** main - check description
+/**
+ * main - check description
  * Description: It prints putchar, followed by a new line.
  * Return: always 0
  */

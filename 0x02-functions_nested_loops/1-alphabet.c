@@ -4,20 +4,19 @@
  * print_alphabet -> It prints the alphabet in lowercase followed by a new line
  */
 
-void print_alphabet(void)
-{
-	int j;
-	for (j = 'a'; j <= 'z'; j++)
-	{
-		_putchar(j);
-	}
-	_putchar('\n');
-}
-
 int main(void)
 
 {
+void print_alphabet(void)
 
+{
+ 	int i;
+	for (i = 'a'; i <= 'z'; i++)
+	    _putchar(i);
+
+	    _putchar('\n');
+
+}
 	    print_alphabet();
 
 	        return (0);

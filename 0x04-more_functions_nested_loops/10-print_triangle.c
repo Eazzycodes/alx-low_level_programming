@@ -17,16 +17,20 @@ void print_triangle(int size)
 	}
 	else
 	{
-
 		for (i = 0; i <= (size - 1); i++)
 		{
-			_putchar (' ');
-		}
 
-		for (j = 0; j <= i; j++)
-		{
-			_putchar (35);
+			for (k = 0; k < (size - 1) - i; i++)
+			{
+				_putchar (' ');
+			}
+
+			for (j = 0; j <= i; j++)
+			{
+				_putchar (35);
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
+
 }
